@@ -16,4 +16,12 @@ Before using Se, ensure you have the following installed:
 - Required Python packages (can be installed via `pip`):
 
 
-  #
+# To hide a file within an image, use the following command:
+```bash
+python secret_pixel.py hide <input_image_name> secret.txt <output_image_name>
+```
+
+# To extract a hidden file from an image, use the following command:
+```bash
+ python secret_pixel.py extract <encrypted_image_name> <file_name>
+```
